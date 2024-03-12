@@ -38,3 +38,30 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+# MyPortfolio
+
+1. lit.link を参考に SPA で自分のポートフォリオサイトを作成する
+2. vercel を用いて本番デプロイを実施するまで
+
+- React を用いて SPA を作成するが利用できるライブラリはどんどん利用していく
+- redux も用いて開発していきたい
+
+# やることリスト
+
+- 作成コンポーネント一覧を作成
+  - アイコン
+  - 単体リスト
+  - 見出し
+  - サイドバー
+  - 通知アイコン
+  - 上の見出し
+- どんな動きをつけるか考える →props 系の話に繋がる
+
+  - modal
+  - サイドバー開閉
+  - ドラック&ドロップ
+
+- サイドバーはつけたい
+- まるまる機能追加で良さそう<br>
+  https://lit.link/admin/creator
