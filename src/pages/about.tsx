@@ -1,11 +1,8 @@
 import AccessAlarmIcon from "@mui/icons-material/AccessAlarm";
-import ButtonAppBar from "@/components/ui/buttonAppBar";
+import ButtonAppBar from "@/src/components/ui/buttonAppBar";
 
 function HomePage() {
-  return (
-    <ButtonAppBar />
-  );
+  return <ButtonAppBar />;
 }
 
 export default HomePage;
-
