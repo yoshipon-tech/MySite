@@ -1,5 +1,5 @@
 import { Header } from "../components/layout/Header";
-import cssModule from "./index.module.css";
+import cssModule from "./index.module.scss";
 import { Footer } from "@/src/components/layout/Footer";
 import { Main } from "../components/features/index/Main";
 import { Top } from "../components/layout/Top";
