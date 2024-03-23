@@ -1,5 +1,6 @@
 import Image from "next/image";
 import cssModule from "./About.module.scss";
+import ProfileImage from "/src/assets/image/IMG_3668.jpg";
 
 export function About() {
   return (
@@ -7,7 +8,7 @@ export function About() {
       <div className={cssModule.aboutArea}>
         <div className={cssModule.imageArea}>
           <Image
-            src="/IMG_3668.JPG"
+            src={ProfileImage}
             width={200}
             height={200}
             alt="profile"
