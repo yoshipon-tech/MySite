@@ -13,6 +13,7 @@ type CardItemProps = {
   title: string;
   description: string;
   label: string;
+  className?: string;
 };
 
 export function CardItem({
@@ -21,9 +22,10 @@ export function CardItem({
   title,
   description,
   label,
+  className,
 }: CardItemProps) {
   return (
-    <Card sx={{ width: 300 }}>
+    <Card sx={{ width: 300 } } className={className}>
       <CardActionArea>
         <CardMedia component="img" image={image.src} alt={alt} sx={{height: 200}} />
         <CardContent>

@@ -11,6 +11,7 @@ export function Ideas() {
         title="よくわかる"
         description="aaa"
         label="aaa"
+        className={cssModule.CardItem}
       />
       <CardItem
         image={Image}
